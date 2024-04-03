@@ -140,11 +140,15 @@ ul {
  }
 
 /* BTS SIO*/
-#btssio {
-    background-color: rgb(0, 0, 0);
-}
+
 #btssio .heading h2 {
     color: white;
+}
+
+#btssio{
+    background-image: url("siosio.png");
+    box-shadow: 10px 5px 5px rgb(0, 0, 0);
+    
 }
 
 /* Projet */
@@ -169,6 +173,9 @@ ul {
 }
 
 /* Stage */
+
+
+
 #stage {
     background-color: black !important;
 }
@@ -181,6 +188,11 @@ ul {
     height: 100%;
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
+}
+
+#stage {
+    background-image: url("edvflou.png");
+    box-shadow: 10px 5px 5px rgb(0, 0, 0);
 }
 
 #stage  img:hover {
@@ -392,7 +404,8 @@ a {
 
 /* CONTACT */
 #projetpro{
-    background-color: rgb(0, 0, 0)
+    background-image: url("parcourpro.png");
+    box-shadow: 10px 5px 5px rgb(0, 0, 0);
 }
 
 #projetpro h2{
